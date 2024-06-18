@@ -52,7 +52,7 @@ export default function Component() {
                 </div>
             </div>
             <div className="flex justify-center mt-auto p-4">
-                <Link href="/kids-insurance/quote">
+                <Link href="/home/kids-insurance/quote">
                     <button className="bg-pink-500 text-white font-bold py-6 px-16 rounded">Get A Quote</button>
                 </Link>
             </div>
