@@ -19,7 +19,7 @@ export default function Component() {
                 <div className="max-w-lg mx-auto text-center">
                     <h1 className="text-3xl font-bold text-black">Kids Insurance</h1>
                     <p className="text-black text-left py-2">
-                        Whether your child is an athlete, naturally rambunctious, or just accident prone, we've got you covered.
+                        Whether your child is an athlete, naturally rambunctious, or just accident prone, we&apos;ve got you covered.
                         Protect your family against unexpected costs if your children get injured. For just $60 per year, Kids
                         Insurance covers:
                     </p>
