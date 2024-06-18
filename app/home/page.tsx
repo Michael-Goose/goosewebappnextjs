@@ -1,3 +1,4 @@
+import Navbar from '@/components/Navbar';
 import React from 'react';
 
 export default function Page() {
@@ -53,32 +54,7 @@ export default function Page() {
           </a>
         </div>
       </div>
-      <div className="flex justify-center fixed inset-x-0 bottom-0">
-        <nav className="flex bg-white py-2 max-w-[800px]">
-          <div className="flex justify-around gap-10 lg:gap-20">
-            <a href="/home" className="flex flex-col items-center text-xs">
-              <img src="/icons/nav-home.webp" alt="Home" className="h-6 w-6 filter-pink" />
-              <span className="text-pink-500">Home</span>
-            </a>
-            <a href="/claims" className="flex flex-col items-center text-xs">
-              <img src="/icons/nav-claim.webp" alt="Claims" className="h-6 w-6" />
-              <span className="text-black">Claims</span>
-            </a>
-            <a href="/my-policies" className="flex flex-col items-center text-xs">
-              <img src="/icons/nav-mypolicies.webp" alt="My Policies" className="h-6 w-6" />
-              <span className="text-black">My Policies</span>
-            </a>
-            <a href="/contact" className="flex flex-col items-center text-xs">
-              <img src="/icons/nav-contact.webp" alt="Contact" className="h-6 w-6" />
-              <span className="text-black">Contact</span>
-            </a>
-            <a href="/profile" className="flex flex-col items-center text-xs">
-              <img src="/icons/nav-profile.webp" alt="Profile" className="h-6 w-6" />
-              <span className="text-black">Profile</span>
-            </a>
-          </div>
-        </nav>
-      </div>
+      <Navbar />
     </div>
   );
 }

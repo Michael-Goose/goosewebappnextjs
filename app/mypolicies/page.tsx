@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Navbar from '@/components/Navbar';
 
 export default function Component() {
     return (
@@ -20,6 +21,7 @@ export default function Component() {
                     </Link>
                 </div>
             </main>
+            <Navbar />
         </div>
     )
 }
